@@ -1,0 +1,15 @@
+:root{
+  --black-background-color1: #161717;
+  --black-text-primary-color: #fafafa;
+  --black-text-secondary-color: #ffffff99;
+}
+.BarAside{
+  background-color: var(--black-background-color1);
+  color: var(--black-text-secondary-color);
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  gap: 20px;
+  padding: 10px;
+  border-right: 1px solid var(--black-text-secondary-color);
+}

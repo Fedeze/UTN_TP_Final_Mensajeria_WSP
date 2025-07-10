@@ -1,0 +1,126 @@
+:root {
+  --black-background-color2: #144d37;
+  --black-background-color4: #242626;
+  --bkack-text-primary-color: #fafafa;
+  --bkack-text-secondary-color: #ffffff99;
+}
+.chat_box {
+  margin: 5px 0;
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+	color: var(--bkack-text-primary-color);
+	font-size: 14px;
+	font-weight: 400;
+}
+.chat_box__user {
+  justify-content: end;
+}
+.chat_box__other {
+  justify-content: start;
+}
+.chat_box_content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 3px 5px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgb(0, 0, 0, 0.2);
+}
+.chat_box_content_user {
+  flex-direction: row;
+  background-color: var(--black-background-color2);
+  gap: 15px;
+}
+.chat_box_content__other {
+  background-color: var(--black-background-color4);
+}
+
+.chat_box__emisor {
+  font-size: 15px;
+  font-weight: 600;
+  color: #128c7e;
+  background-color: inherit;
+}
+.content_text {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  background-color: inherit;
+}
+.chat_box__text {
+  max-width: 500px;
+  background-color: inherit;
+}
+.chat_box__t_s {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  background-color: inherit;
+}
+.chat_box__time {
+  font-size: 12px;
+  font-weight: 600;
+  color: rgb(175, 175, 175);
+  background-color: inherit;
+}
+.chat_box__status {
+  width: 33px;
+  margin-left: -5px;
+  background-color: inherit;
+}
+.check_visto {
+  display: flex;
+}
+.chat_box__t_s svg {
+  font-size: 20px;
+  background-color: inherit;
+}
+.chat_box__t_s svg:first-child {
+  position: relative;
+  left: 10px;
+  z-index: 0;
+}
+.chat_box__t_s svg:last-child {
+  position: relative;
+  background-color: transparent;
+  z-index: 1;
+}
+.check_no_visto {
+  display: flex;
+  color: #a5a5a5;
+}
+.check_visto svg polygon {
+  fill: #25d366;
+}
+.check_no_visto svg polygon {
+  fill: #a5a5a5;
+}
+.check_no_recibido {
+  display: flex;
+}
+.check_no_recibido svg polygon {
+  fill: #a5a5a5;
+}
+.btn_delete_contaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_delete {
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  color: red;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  .chat_box_content {
+    width: 80%;
+  }
+}

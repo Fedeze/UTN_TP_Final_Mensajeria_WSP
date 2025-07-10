@@ -1,0 +1,110 @@
+.detail_contact{
+  background-color: var(--black-background-color1);
+  height: 100dvh;
+}
+.detail_contac__divisor{
+  width: 100%;
+  height: 5px;
+  background-color: var(--black-background-color3);
+  border: none;
+}
+.details__butons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.details__butons_link{
+  padding: 10px;
+  font-size: 25px;
+  color: var(--black-text-secondary-color)
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.detail_img{
+  width: 100px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+.details_name{
+  font-size: 30px;
+  color:var(--black-text-primary-color)
+}
+.details_last_time{
+  font-size: 20px;
+  color:var(--black-text-secondary-color)
+}
+.details_option{
+  padding: 10px;
+  font-size: 25px;
+  color: var(--black-text-secondary-color);
+}
+.funtions{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.funtions button{
+  font-size: 20px;
+  min-width: 80px;
+  width: 100px;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: var(--black-objet-color);
+  background-color: transparent;
+  border: 1px solid var(--black-text-secondary-color);
+  border-radius: 10px;
+}
+.funtions button span{
+  font-size: 16px;
+}
+.detail_contact__state{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-size: 18px;
+  color: var(--black-text-primary-color);
+}
+.detail_contac__config{
+  display: flex;
+  flex-direction: column;
+}
+.detail_contac__config button{
+  width: 100%;
+  background-color: var(--black-background-color1);
+  color: var(--black-text-primary-color);
+  padding: 10px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+.detail_contac__config button span{
+  font-size: 16px;
+}
+.config_contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.config_contain p{
+  font-size: 14px;
+  color: var(--black-text-secondary-color);
+}
+.detail_icons{
+  min-width: 20px;
+}

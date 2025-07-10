@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --ff-text1: "Roboto Flex";
+  --ff-text2: "Lato";
+  --ff-text3: "Roboto", sans-serif;
+  --black-background-color1: #161717;
+  --black-background-color2: #144d37;
+  --black-background-color3: #262524;
+  --black-background-color4: #242626;
+  --black-background-color5: #424242;
+  --black-text-primary-color: #fafafa;
+  --black-text-secondary-color: #ffffff99;
+  --black-text-ter-color: #333636;
+  --black-objet-color: #25d366;
+}
+* {
+  font-family: var(--ff-text3);
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}

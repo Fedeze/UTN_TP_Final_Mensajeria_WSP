@@ -1,0 +1,11 @@
+:root{
+  --black-background-color3: #262524;
+  --black-background-color5: #424242;
+  --black-text-primary-color: #fafafa;
+}
+.chat_content{
+  padding: 10px 25px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black-background-color5);
+}

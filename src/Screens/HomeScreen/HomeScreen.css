@@ -1,0 +1,128 @@
+@import url('//fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+:root{
+  --black-background-color3: #242626;
+  --black-background-color5: #424242;
+  --bkack-text-secondary-color: #ffffff99;
+  --black-text-ter-color: #333636;
+}
+.load{ 
+  background-color: transparent; 
+  display: grid;
+  place-content: center;
+  height: 100vh;
+  color: #000;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cargando{ 
+  position: relative; 
+  color: #FFF;
+  margin-top: 2em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase
+}
+.contenedor-loader{  
+    width: 180px;
+    height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 0 auto; 
+}
+.contenedor-loader div{ 
+  width: 30px;
+  height: 30px;
+  background-color: #FFF;
+  animation: salto 1s alternate
+    infinite;
+}
+.loader1{
+  border-radius: 50%;
+}
+.loader2{
+  border-radius: 50%;
+}
+.loader3{
+  border-radius: 50%;
+}
+.loader4{
+  border-radius: 50%;
+}
+.contenedor-loader div:nth-child(2){ 
+  animation-delay: 0.20s; 
+}
+.contenedor-loader div:nth-child(3){ 
+  animation-delay: 0.40s; 
+}
+.contenedor-loader div:nth-child(4){ 
+  animation-delay: 0.60s; 
+}
+@keyframes salto {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+.chat_app{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.container_list_chat{
+  display: flex;
+  flex-direction: row;
+}
+.chat_container{
+  width: 100%;
+  background-color: var(--black-background-color5);
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: scroll;
+  border-left: 1px solid var(--black-text-secondary-color);
+}
+.chat_container::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+
+.chat_container::-webkit-scrollbar-thumb {
+  background-color: var(--black-background-color3);
+  border-radius: 5px;
+}
+
+.chat_container::-webkit-scrollbar-track {
+  background-color: var(--black-background-color5);
+}
+@media screen and (max-width: 900px){
+  .container_list_chat{
+    display: none;
+  }
+}
+@media screen and (max-width: 650px){
+  .profile_last_message{
+    width: 350px;
+  }
+}
+@media screen and (max-width: 500px){
+  .profile_last_message{
+    width: 250px;
+  }
+}
+@media screen and (max-width: 400px){
+  .profile_last_message{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 350px){
+  .profile_last_message{
+    width: 120px;
+  }
+}

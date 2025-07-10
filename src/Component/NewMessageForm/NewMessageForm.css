@@ -1,0 +1,66 @@
+:root{
+  --black-background-color1: #161717;
+  --black-background-color5: #424242;
+}
+.new_message{
+  position: sticky;
+  background-color: var(--black-background-color5);
+  bottom: 0;
+  z-index: 10;
+}
+.form_content {
+  background-color: inherit;
+  padding: 0px 10px 10px 10px;
+  gap: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.commands {
+  width: 100%;
+  border-radius: 30px;
+  background-color: var(--black-background-color1);
+  display: flex;
+  gap: 5px;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.command_icon {
+  color: #a5a5a5;
+  font-size: 25px;
+  background-color: var(--black-background-color1);
+}
+.command_icon:first-child {
+  margin-left: 10px;
+}
+.command_icon:last-child {
+  margin-right: 10px;
+}
+.text_area {
+  border: none;
+  width: 100%;
+  background-color: var(--black-background-color1);
+  font-size: 20px;
+  resize: none;
+  color: #fff;
+}
+.button_submit {
+  font-size: 25px;
+  background-color: #f7f3f3;
+  color: rgb(90, 89, 89);
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 57px;
+  height: 57px;
+  border: none;
+}
+.button_submit svg {
+  color: black;
+  background-color: inherit;
+}
