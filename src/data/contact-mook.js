@@ -146,7 +146,7 @@ const mook_data = {
           emisor: "Ramon",
           hora: "15:17",
           id: 20,
-          texto: "¡¿Encima que me ofrecés ayuda?!",
+          texto: "¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!¡¿Encima que me ofrecés ayuda?!",
           status: "visto",
         },
       ],

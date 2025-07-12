@@ -11,6 +11,7 @@
   font-size: 24px;
   gap: 20px;
   padding: 10px;
+  box-shadow: 0 -5px 10px var(--black-text-primary-color);
 }
 @media screen and (max-width: 900px) {
   .aside{
