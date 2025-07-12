@@ -2,9 +2,9 @@ import React from 'react'
 import ICONS from '../../Asset/Icons'
 import './Aside.css'
 
-export default function BarAside() {
+export default function Aside() {
   return (
-    <div className='BarAside'>
+    <div className='aside'>
       <ICONS.Chat />
       <ICONS.States />
       <ICONS.Chanel />

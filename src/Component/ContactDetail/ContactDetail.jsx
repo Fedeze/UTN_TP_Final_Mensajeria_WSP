@@ -11,7 +11,7 @@ export const ContactDetail = () => {
     return <h2>Cargando</h2>
   }
   return (
-    <div className='detail_contact'>
+    <div className='contact_detail__container'>
       <div className="details__butons">
         <Link to={`/contacts/${contact_detail.id}/messages`} className='details__butons_link'>
           <ICONS.LeftArrow />

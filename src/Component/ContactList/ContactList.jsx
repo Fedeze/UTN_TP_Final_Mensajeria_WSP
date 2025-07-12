@@ -2,28 +2,18 @@ import React, { useContext } from "react"
 import ContactItem from "../ContactItem/ContactItem"
 import { ContactContext } from "../../Context/ContactContext"
 import './ContactList.css'
+import Loader from "../Loader/Loader"
 
 const ContactsList = () => {
 	const { contacts, isLoadingContacts } = useContext(ContactContext)
 	if (isLoadingContacts) {
 		return (
-			<div className="load">
-				<div className="contenedor-loader">
-					<div className="loader1"></div>
-					<div className="loader2"></div>
-					<div className="loader3"></div>
-					<div className="loader4"></div>
-				</div>
-				<div className="cargando">Cargando...</div>
-			</div>
+			<Loader />
 		)
 	}
-	
 	return (
-		<div className='container_list_home'>
-			
+		<div className='contact_list__container'>
 			{
-				
 				contacts.map(
 					(contact) => {
 						const mensajes = contact.messages
@@ -37,11 +27,9 @@ const ContactsList = () => {
 							last_message={ultimo.texto}
 							unread_messages={contact.unread_messages}
 						/>
-						
 					}
 				)
 			}
-			
 		</div>
 	)
 }

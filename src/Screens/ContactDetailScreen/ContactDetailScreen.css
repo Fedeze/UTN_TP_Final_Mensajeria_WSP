@@ -1,0 +1,16 @@
+.contact_detail_screen__container{
+  display: flex;
+  flex-direction: row;
+}
+.contact_detail_screen__a_cl{
+  display: flex;
+  flex-direction: row;
+}
+.contact_detail_screen__contact_detail{
+  width: 100%;
+}
+@media screen and (max-width: 950px) {
+  .contact_detail_screen__a_cl{
+    display: none;
+  }
+}

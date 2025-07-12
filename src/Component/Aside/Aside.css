@@ -3,7 +3,7 @@
   --black-text-primary-color: #fafafa;
   --black-text-secondary-color: #ffffff99;
 }
-.BarAside{
+.aside{
   background-color: var(--black-background-color1);
   color: var(--black-text-secondary-color);
   display: flex;
@@ -11,5 +11,9 @@
   font-size: 24px;
   gap: 20px;
   padding: 10px;
-  border-right: 1px solid var(--black-text-secondary-color);
+}
+@media screen and (max-width: 900px) {
+  .aside{
+    display: none;
+  }
 }

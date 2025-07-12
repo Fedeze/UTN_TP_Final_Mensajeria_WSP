@@ -19,6 +19,7 @@ import { RxCountdownTimer } from "react-icons/rx";
 import { IoDocumentLockSharp } from "react-icons/io5";
 import { MdOutlinePrivacyTip } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
+import { IoLogoWhatsapp } from "react-icons/io5";
 
 const ICONS = {
   Search: IoSearch,
@@ -41,6 +42,7 @@ const ICONS = {
   Temporal: RxCountdownTimer,
   Restricted: IoDocumentLockSharp,
   Privacy: MdOutlinePrivacyTip,
-  Trascription: IoDocument
+  Trascription: IoDocument,
+  WhatssApp:IoLogoWhatsapp
 }
 export default ICONS

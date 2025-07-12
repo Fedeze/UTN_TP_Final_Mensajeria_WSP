@@ -1,0 +1,27 @@
+.contacts_screen__container{
+  display: flex;
+  width: 100%;
+}
+.contacts_screen__a_cl{
+  display: flex;
+  width: 700px;
+}
+.contacts_screen__chat_off{
+  width: 100%;
+}
+@media screen and (max-width: 1030px){
+  .contacts_screen__a_cl{
+  width: 500px;
+}
+}
+@media screen and (max-width: 900px){
+  .contacts_screen__a_cl{
+  width: 100%;
+}
+.contacts_screen__contact_list{
+  width: 100%;
+}
+.contacts_screen__chat_off{
+  display: none;
+}
+}

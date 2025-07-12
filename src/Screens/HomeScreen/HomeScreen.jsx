@@ -7,8 +7,9 @@ import './HomeScreen.css'
 import ChatHeader from '../../Component/ChatHeader/ChatHeader'
 import { ContactDetailContext } from '../../Context/ContactDetailContext'
 import '../../App.css'
-import BarAside from '../../Component/Aside/Aside';
+import Aside from '../../Component/Aside/Aside';
 import ContactsList from '../../Component/ContactList/ContactList';
+import Loader from '../../Component/Loader/Loader';
 
 export default function HomeScreen() {
 	const { contact_id } = useParams()
@@ -25,31 +26,23 @@ export default function HomeScreen() {
 			loadContact(contact_id)
 		}, [contact_id]
 	)
-	
+
 	if (isMessagesLoading) {
 		return (
 			<div className='chat_app'>
 				<div className="container_list_chat">
+					<Aside/>
 					<ContactsList />
 				</div>
-				<div className="load">
-					<div className="contenedor-loader">
-						<div className="loader1"></div>
-						<div className="loader2"></div>
-						<div className="loader3"></div>
-						<div className="loader4"></div>
-					</div>
-					<div className="cargando">Cargando...</div>
-				</div>
-
+				<Loader/>
 			</div>
 		)
 	}
 	return (
 		<div className='chat_app'>
 			<div className="container_list_chat">
-				<BarAside/>
-				<ContactsList/>
+				<Aside/>
+				<ContactsList />
 			</div>
 			<div className='chat_container'>
 				<div className='chat_container__h_c'>
