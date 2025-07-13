@@ -52,6 +52,7 @@
 .chat_box__text {
   max-width: 500px;
   background-color: inherit;
+  padding: 4px;
 }
 .chat_box__t_s {
   display: flex;
@@ -114,7 +115,7 @@
 }
 .btn_delete {
   border: none;
-  padding: 5px;
+  padding: 3px;
   font-size: 15px;
   color: red;
   background-color: rgb(255, 255, 255);
