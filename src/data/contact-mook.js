@@ -13,7 +13,7 @@ const mook_data = {
           emisor: "YO",
           hora: "15:00",
           id: 1,
-          texto: "Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?Don Ramón, ¿está ocupado?",
+          texto: "Don Ramón, ¿está ocupado?",
           status: "visto",
         },
         {
@@ -157,7 +157,7 @@ const mook_data = {
       name: "Chavo",
       last_time_connected: "15:19",
       img: "/resources/chavo.webp",
-      state:'PI PI PI PI😓😓😓',
+      state:'Eso Eso Eso 👆👆👆',
       unread_messages: "",
       messages: [
         {
