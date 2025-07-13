@@ -2,7 +2,7 @@
   background-color: var(--black-background-color1);
   width: 100%;
   height: 100dvh;
-  overflow-y: scroll
+  overflow-y: auto
 }
 .detail_contac__divisor{
   width: 100%;

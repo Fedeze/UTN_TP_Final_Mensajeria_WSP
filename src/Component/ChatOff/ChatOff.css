@@ -3,7 +3,7 @@
   padding: 30px;
   height: 100dvh;
   background-color: var(--black-background-color5);
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .chatoff_content{
   height: 100%;
