@@ -12,7 +12,9 @@
   background-color: var(--black-background-color1);
   flex-direction: column;
   align-items: center;
-  overflow-y: scroll
+  overflow-y: scroll;
+  box-shadow: 1px 0px 10px rgba(255, 255, 255, 0.171);
+  z-index: 2;
 }
 .contact_list__container::-webkit-scrollbar {
   width: 7px;

@@ -75,11 +75,16 @@
 .chat_box__t_s svg {
   font-size: 20px;
   background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-end;
+  
 }
 .chat_box__t_s svg:first-child {
   position: relative;
   left: 10px;
   z-index: 0;
+  
 }
 .chat_box__t_s svg:last-child {
   position: relative;

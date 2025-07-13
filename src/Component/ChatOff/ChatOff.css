@@ -3,6 +3,7 @@
   padding: 30px;
   height: 100dvh;
   background-color: var(--black-background-color5);
+  overflow-y: scroll;
 }
 .chatoff_content{
   height: 100%;
@@ -14,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 .chatoff_icon{
   font-size: 70px;

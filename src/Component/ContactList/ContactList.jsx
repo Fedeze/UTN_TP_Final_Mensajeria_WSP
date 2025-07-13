@@ -3,6 +3,7 @@ import ContactItem from "../ContactItem/ContactItem"
 import { ContactContext } from "../../Context/ContactContext"
 import './ContactList.css'
 import Loader from "../Loader/Loader"
+import HeaderContactList from "../HeaderContactList/HeaderContactList"
 
 const ContactsList = () => {
 	const { contacts, isLoadingContacts } = useContext(ContactContext)
@@ -13,6 +14,7 @@ const ContactsList = () => {
 	}
 	return (
 		<div className='contact_list__container'>
+			<HeaderContactList/>
 			{
 				contacts.map(
 					(contact) => {

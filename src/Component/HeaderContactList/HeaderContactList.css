@@ -1,0 +1,45 @@
+.header_contact_list{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--black-background-color1);
+  z-index: 2;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  color: var(--black-text-primary-color);
+}
+.header__log__new_chat{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+.header__logo{
+  font-size: 25px;
+}
+.header__new_chat{
+  font-size: 25px;
+  display: flex;
+  gap: 25px;
+}
+.header__input{
+  font-size: 20px;
+  margin: 0px 20px 5px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  padding: 8px 15px;
+  border: 1px solid var(--black-text-secondary-color);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.header__textarea{
+  width: 100%;
+  border: none;
+  resize: none;
+  background-color: var(--black-background-color1);
+  font-size: 16px;
+  color: var(--black-text-primary-color);
+}

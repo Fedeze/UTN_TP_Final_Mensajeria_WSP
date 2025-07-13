@@ -20,6 +20,7 @@ import { IoDocumentLockSharp } from "react-icons/io5";
 import { MdOutlinePrivacyTip } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { IoLogoWhatsapp } from "react-icons/io5";
+import { RiChatNewFill } from "react-icons/ri";
 
 const ICONS = {
   Search: IoSearch,
@@ -43,6 +44,7 @@ const ICONS = {
   Restricted: IoDocumentLockSharp,
   Privacy: MdOutlinePrivacyTip,
   Trascription: IoDocument,
-  WhatssApp:IoLogoWhatsapp
+  WhatssApp:IoLogoWhatsapp,
+  NewChat: RiChatNewFill
 }
 export default ICONS

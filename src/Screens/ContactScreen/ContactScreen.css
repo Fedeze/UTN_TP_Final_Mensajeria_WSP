@@ -4,18 +4,31 @@
 }
 .contacts_screen__a_cl{
   display: flex;
-  width: 700px;
+  width: 750px;
+}
+.contacts_screen__header_contact_list{
+  width: 100%;
 }
 .contacts_screen__chat_off{
   width: 100%;
 }
+  .contact_header_container{
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (max-width: 1030px){
-  .contacts_screen__a_cl{
+  .contact_header_container{
+  width: 100%;
+}
+.contacts_screen__a_cl{
   width: 500px;
 }
 }
 @media screen and (max-width: 900px){
-  .contacts_screen__a_cl{
+  .contact_header_container{
+  width: 100%;
+}
+.contacts_screen__a_cl{
   width: 100%;
 }
 .contacts_screen__contact_list{
